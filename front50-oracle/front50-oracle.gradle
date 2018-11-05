@@ -62,4 +62,7 @@ dependencies {
   compile fileTree(sdkLocation)
 
   testCompile project(":front50-test")
+
+  testCompile "org.glassfish.jersey.core:jersey-common:2.27"
+  testCompile "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.9.5"
 }
